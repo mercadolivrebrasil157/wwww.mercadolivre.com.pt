@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulação Educacional - Produto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .alerta {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .produto {
+            display: flex;
+            gap: 30px;
+        }
+
+        .produto img {
+            width: 400px;
+            border-radius: 8px;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .preco-antigo {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .preco {
+            font-size: 28px;
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        .botao {
+            background-color: #1976d2;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .botao:hover {
+            background-color: #0d47a1;
+        }
+
+        .secao {
+            margin-top: 30px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="alerta">
+    ⚠️ SIMULAÇÃO EDUCACIONAL – SITE FICTÍCIO PARA TRABALHO ESCOLAR ⚠️
+</div>
+
+<div class="container">
+    <div class="produto">
+        <img src="https://via.placeholder.com/400x300.png?text=Imagem+Ilustrativa" alt="Produto ilustrativo">
+
+        <div class="info">
+            <h1>Placa de Vídeo RTX 5060 8GB GDDR7 128-bits</h1>
+            <p class="preco-antigo">De: R$ 2.499,90</p>
+            <p class="preco">Por: R$ 1.899,90</p>
+            <p>⭐⭐⭐⭐☆ (4,8 - 327 avaliações fictícias)</p>
+            <button class="botao">Comprar Agora</button>
+        </div>
+    </div>
+
+    <div class="secao">
+        <h2>Descrição do Produto</h2>
+        <p>
+            Esta página foi criada para demonstrar como sites falsos podem parecer reais.
+            O objetivo é ensinar como identificar golpes online e links suspeitos.
+        </p>
+    </div>
+
+    <div class="secao">
+        <h2>Especificações Técnicas</h2>
+        <ul>
+            <li>Memória: 8GB GDDR7</li>
+            <li>Interface: 128-bits</li>
+            <li>Suporte a Ray Tracing</li>
+            <li>PCI Express 4.0</li>
+            <li>Saídas: HDMI / DisplayPort</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
